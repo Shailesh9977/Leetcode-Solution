@@ -1,0 +1,29 @@
+  vector<int> shuffle(vector<int>& nums, int n) {
+           
+        vector<int> ans;
+
+        for (int i = 0; i < n; i++) {
+            ans.push_back(nums[i]);
+            ans.push_back(nums[i + n]);
+        }
+
+        return ans;
+    }
+};
+        
+
+
+
+      //  s question me kya nahi lagta
+
+ //Two Pointer
+ //Sliding Window
+ //Prefix Sum
+ //Binary Search
+ //Kadane
+
+//Main concept = Array Traversal + Indexing
+for loop lagao traverse kro aur nums[i] , nums[i+1]  yahi laga hai esme 
+
+
+// push_back use hua hai new aaraay ko store krne ke liye 
